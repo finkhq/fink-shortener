@@ -11,6 +11,6 @@ describe('fink shortener ::', function () {
     const short = shortener(123)
     short.id.should.be.an.Number()
     short.hash.should.be.a.String()
-    short.emojifier.should.be.a.String()
+    short.hashEmoji.should.be.a.String()
   })
 })

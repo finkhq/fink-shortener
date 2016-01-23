@@ -6,6 +6,6 @@ const emoji = require('base64-emoji')
 
 module.exports = function (id) {
   let hash = base58.encode(id.toString())
-  let emojifier = emoji.encode(hash).toString()
-  return {id, hash, emojifier}
+  let hashEmoji = emoji.encode(hash).toString()
+  return {id, hash, hashEmoji}
 }
