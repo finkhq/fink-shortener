@@ -15,8 +15,9 @@
   },
   "keywords": [
     "fink",
-    "shortener",
-    "url"
+    "🐀",
+    "url",
+    "shortener"
   ],
   "dependencies": {
     "base-x": "~1.0.2",
