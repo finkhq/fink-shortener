@@ -24,10 +24,10 @@
     "base64-emoji": "~2.1.0"
   },
   "devDependencies": {
-    "git-dirty": "~1.0.0",
-    "mocha": "~2.4.1",
-    "should": "~8.2.0",
-    "standard": "~5.4.1"
+    "git-dirty": "latest",
+    "mocha": "latest",
+    "should": "latest",
+    "standard": "latest"
   },
   "engines": {
     "node": ">= 4"
