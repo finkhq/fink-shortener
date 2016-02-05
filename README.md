@@ -12,7 +12,7 @@
 [![Dependency status](http://img.shields.io/david/finkhq/fink-shortener.svg?style=flat-square)](https://david-dm.org/finkhq/fink-shortener)
 [![Dev Dependencies Status](http://img.shields.io/david/dev/finkhq/fink-shortener.svg?style=flat-square)](https://david-dm.org/finkhq/fink-shortener#info=devDependencies)
 [![NPM Status](http://img.shields.io/npm/dm/fink-shortener.svg?style=flat-square)](https://www.npmjs.org/package/fink-shortener)
-[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/finkhq)
+[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/kikobeats)
 
 > Makes URL short
 
