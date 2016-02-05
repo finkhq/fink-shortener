@@ -15,30 +15,4 @@ describe('fink shortener ::', function () {
       short.hashEmoji.should.be.a.String()
     })
   })
-
-  describe('.isValid', function () {
-    describe('valid', function () {
-      it('when the URI is from different hostname', function () {
-        const isValid = shortener.isValid('myhost.com', 'http://kikobeats.com')
-        isValid.should.be.true()
-      })
-
-      it('from bittorrent protocol', function () {
-        const isValid = shortener.isValid('myhost.com', 'magnet:?xt=urn:sha1:PDAQRAOQQRYS76MRZJ33LK4MMVZBDSCL')
-        isValid.should.be.true()
-      })
-    })
-
-    describe('invalid', function () {
-      it('when the URI is from the same hostname', function () {
-        const isValid = shortener.isValid('google.com', 'https://google.com/')
-        isValid.should.be.false()
-      })
-
-      it('when is not a valid URI', function () {
-        const isValid = shortener.isValid('google.com', 'aoskdpoakd')
-        isValid.should.be.false()
-      })
-    })
-  })
 })
