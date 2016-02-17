@@ -22,7 +22,6 @@
     "🐀"
   ],
   "dependencies": {
-    "base-x": "~1.0.2",
     "base64-emoji": "~2.1.0"
   },
   "devDependencies": {
