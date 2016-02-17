@@ -1,26 +1,9 @@
 'use strict'
 
-const emoji = require('base64-emoji')
-const alphabet = '123456789abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ'
-const base = alphabet.length
-
-function base58 (num) {
-  if (!/^\d+$/.test(num)) throw new Error('Value passed is not an integer.')
-  if (typeof num !== 'number') num = parseInt(num)
-
-  var str = ''
-
-  while (num >= base) {
-    var mod = num % base
-    str = alphabet[mod] + str
-    num = (num - mod) / base
-  }
-
-  return alphabet[num] + str
-}
+const base58 = require('encode-base58')
 
 module.exports = function shorten (id) {
-  let hash = base58(id)
-  let hashEmoji = emoji.encode(id.toString()).toString()
-  return {id, hash, hashEmoji}
+  const hash = base58(id)
+  const hashEmoji = base58.emojis(id)
+  return { id, hash, hashEmoji }
 }

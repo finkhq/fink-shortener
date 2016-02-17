@@ -16,6 +16,7 @@ describe('fink shortener ::', function () {
       short.hash.should.be.equal('a')
 
       short.hashEmoji.should.be.a.String()
+      short.hashEmoji.should.be.equal('🔆')
     })
   })
 })

@@ -22,7 +22,7 @@
     "🐀"
   ],
   "dependencies": {
-    "base64-emoji": "~2.1.0"
+    "encode-base58": "~1.0.0"
   },
   "devDependencies": {
     "git-dirty": "latest",
