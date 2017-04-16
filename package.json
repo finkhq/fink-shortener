@@ -22,7 +22,7 @@
     "🐀"
   ],
   "dependencies": {
-    "encode-base58": "~1.0.0"
+    "encode-base58": "~2.0.0"
   },
   "devDependencies": {
     "git-dirty": "latest",
