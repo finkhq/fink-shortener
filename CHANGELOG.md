@@ -1,3 +1,11 @@
+<a name="1.1.1"></a>
+## 1.1.1 (2017-04-19)
+
+* update base58 dependency ([7db75fa](https://github.com/finkhq/fink-shortener/commit/7db75fa))
+* Update travis builds ([d97825e](https://github.com/finkhq/fink-shortener/commit/d97825e))
+
+
+
 <a name="1.1.0"></a>
 # 1.1.0 (2016-02-17)
 
