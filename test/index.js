@@ -1,8 +1,6 @@
-/* global describe, it */
-
 'use strict'
 
-require('should')
+const should = require('should')
 
 const shortener = require('..')
 
@@ -10,13 +8,13 @@ describe('fink shortener ::', function () {
   describe('.shorten', function () {
     it('create a hash from a number', function () {
       const short = shortener(9)
-      short.id.should.be.an.Number()
+      should(short.id).be.an.Number()
 
-      short.hash.should.be.a.String()
-      short.hash.should.be.equal('a')
+      should(short.hash).be.a.String()
+      should(short.hash).be.equal('a')
 
-      short.hashEmoji.should.be.a.String()
-      short.hashEmoji.should.be.equal('🔆')
+      should(short.hashEmoji).be.a.String()
+      should(short.hashEmoji).be.equal('🔆')
     })
   })
 })
